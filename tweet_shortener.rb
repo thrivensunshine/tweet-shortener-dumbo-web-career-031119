@@ -50,7 +50,7 @@ def shortened_tweet_truncator(str)
   
   if selective_tweet_shortener(str).length > 140
 elipse = "..."
-  str[0...136] + elipse
+  str[0...137] + elipse
 else
   str
 end
